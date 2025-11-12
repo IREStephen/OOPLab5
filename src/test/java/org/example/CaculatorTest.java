@@ -20,5 +20,10 @@ public class CaculatorTest {
         assertEquals(20, calc.add(16, 4));
     }
 
+    @Test
+    public void testSub_Success()
+    {
+        assertEquals(12, calc.sub(16, 4));
+    }
 
 }
