@@ -1,7 +1,7 @@
 package org.example;
 
 public class Caculator {
-    public int add(int firstNum, int secondNum)
+    public int add(int firstNum, int secondNum) // Adds
      {
         if (firstNum >= Integer.MAX_VALUE || secondNum >= Integer.MAX_VALUE)
             throw new ArithmeticException("Number cannot be greater than or equal to the Integer.MAX_VALUE");
@@ -9,7 +9,7 @@ public class Caculator {
          return result;
      }
 
-    public int sub(int firstNum, int secondNum)
+    public int sub(int firstNum, int secondNum) // Subtracts
     {
         if (firstNum >= Integer.MAX_VALUE || secondNum >= Integer.MAX_VALUE)
             throw new ArithmeticException("Number cannot be greater than or equal to the Integer.MAX_VALUE");
@@ -17,7 +17,7 @@ public class Caculator {
         return result;
     }
 
-    public int multi(int firstNum, int secondNum)
+    public int multi(int firstNum, int secondNum) // MMultiplies
     {
         if (firstNum >= Integer.MAX_VALUE || secondNum >= Integer.MAX_VALUE)
             throw new ArithmeticException("Number cannot be greater than or equal to the Integer.MAX_VALUE");
@@ -25,7 +25,7 @@ public class Caculator {
         return result;
     }
 
-    public int div(int firstNum, int secondNum)
+    public int div(int firstNum, int secondNum) // Divides
     {
         if (firstNum >= Integer.MAX_VALUE || secondNum >= Integer.MAX_VALUE)
             throw new ArithmeticException("Number cannot be greater than or equal to the Integer.MAX_VALUE");
